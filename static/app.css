@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Color de fondo del cuerpo */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* Color de fondo del contenedor */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra alrededor del contenedor */
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #333; /* Color del texto */
+}
+
+h2 {
+    font-size: 20px;
+    color: #FF6347; /* Color del texto */
+    margin-top: 20px; /* Margen superior */
+}
+
+form {
+    margin-top: 20px; /* Margen superior */
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px; /* Margen inferior */
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px; /* Margen inferior */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #FF6347; /* Color de fondo del botón */
+    border: none;
+    color: #fff; /* Color del texto del botón */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.input-group {
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+.error-msg {
+    color: #FF6347; /* Color del mensaje de error */
+    margin-top: 10px; /* Margen superior */
+    text-align: center;
+}
+
+.text-enlace {
+    text-align: center;
+    margin-top: 20px; /* Margen superior */
+}
+
+.text-enlace a {
+    color: #FF6347; /* Color del enlace */
+}
+
+
+
